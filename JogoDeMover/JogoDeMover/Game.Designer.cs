@@ -108,9 +108,9 @@
             // 
             this.pct_Player.Image = ((System.Drawing.Image)(resources.GetObject("pct_Player.Image")));
             this.pct_Player.InitialImage = ((System.Drawing.Image)(resources.GetObject("pct_Player.InitialImage")));
-            this.pct_Player.Location = new System.Drawing.Point(12, 383);
+            this.pct_Player.Location = new System.Drawing.Point(12, 301);
             this.pct_Player.Name = "pct_Player";
-            this.pct_Player.Size = new System.Drawing.Size(125, 124);
+            this.pct_Player.Size = new System.Drawing.Size(228, 206);
             this.pct_Player.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pct_Player.TabIndex = 1;
             this.pct_Player.TabStop = false;
@@ -120,8 +120,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 513);
-            this.Controls.Add(this.pct_Player);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pct_Player);
             this.Name = "Game";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Game";
